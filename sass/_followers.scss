@@ -1,0 +1,103 @@
+@import 'mixins';
+
+.card {
+  @include border;
+}
+
+.followers {
+  @include flex-gap;
+  // flex-wrap: wrap;
+
+  &-card {
+    flex: 25%;
+    height: 13.5rem;
+    padding-top: 2rem;
+    margin-top: -2.7rem;
+    font-size: 1.5rem;
+    position: relative;
+    transition: 0.4s;
+
+    @include flex-align-center;
+    flex-direction: column;
+
+    &::before {
+      content: '';
+      width: 100%;
+      height: 0.3rem;
+      border-radius: 0.4rem 0.4rem 0 0;
+      position: absolute;
+      top: 0;
+    }
+
+    &:hover {
+      @include hover;
+    }
+  }
+
+  &-social {
+    font-size: 0.92rem;
+    margin: 0 0 1rem 0.7rem;
+  }
+
+  &-subscribers {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &-statistics {
+    font-size: 0.9rem;
+    margin-left: 0.7rem;
+  }
+
+  &-icon--container {
+    display: flex;
+  }
+
+  &-up {
+    @include flex-align-center;
+  }
+}
+
+.facebook::before {
+  background: $facebook;
+}
+
+.twitter::before {
+  background: $twitter;
+}
+
+.instagram::before {
+  background: $instagram;
+}
+
+.youtube::before {
+  background: $youtube;
+}
+
+// Dark Theme
+.card.dark {
+  background: $dark-theme_dark-desaturated_blue--card;
+}
+
+//Tablet
+@media screen and (max-width: 60rem) {
+  .followers {
+    flex-wrap: wrap;
+    &-card {
+      flex: 40%;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+//Mobile
+@media screen and (max-width: 37.5rem) {
+  .followers {
+    &-card {
+      flex: 50%;
+    }
+  }
+}

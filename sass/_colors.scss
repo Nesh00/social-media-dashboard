@@ -1,0 +1,35 @@
+//////////////////////////////////////////////////////////////////////////////
+// Light Theme
+$white: rgb(255, 255, 255); //(BG)
+$very-pale-blue: rgb(245, 247, 255); //(Top BG Pattern)
+$light-grayish-blue: rgb(240, 242, 250); //(Card BG)
+$dark-grayish-blue: rgb(99, 104, 126); //(Text)
+$very-dark-blue: rgb(30, 32, 42); //(Text)
+
+$bright-red: rgb(220, 65, 76);
+$lime-green: rgb(29, 180, 137);
+
+$blue: rgb(23, 143, 245);
+
+.red {
+  color: $bright-red;
+}
+
+.green {
+  color: $lime-green;
+}
+
+$facebook: rgb(25, 143, 245);
+$twitter: rgb(28, 160, 242);
+$instagram: linear-gradient(90deg, rgb(253, 196, 104), rgb(223, 73, 150));
+$youtube: rgb(196, 3, 42);
+
+//////////////////////////////////////////////////////////////////////////////
+// Dark Theme
+$dark-theme_very-dark_blue--bg: rgb(30, 32, 42); //(BG)
+$dark-theme_very-dark_blue--top: rgb(31, 33, 46); //(Top BG Pattern)
+$dark-theme_dark-desaturated_blue--card: rgb(37, 42, 65); //(Card BG)
+$dark-theme_desaturated_blue: rgb(139, 151, 198); //(Text)
+$dark-theme_white: rgb(255, 255, 255); //(Text)
+
+$btn-switch_dark: linear-gradient(90deg, rgb(55, 143, 230), rgb(62, 218, 130));

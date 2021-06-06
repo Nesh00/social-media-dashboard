@@ -1,0 +1,20 @@
+@mixin hover {
+  transition: 0.4s;
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin border {
+  background-color: $light-grayish-blue;
+  border-radius: 0.3rem;
+}
+
+@mixin flex-gap {
+  display: flex;
+  gap: 2rem 1rem;
+}

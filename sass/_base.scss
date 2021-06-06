@@ -1,0 +1,53 @@
+@import 'colors';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  background: $white;
+  padding: 2rem 10%;
+  letter-spacing: 0.02rem;
+  transition: background 0.3s;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+p {
+  color: $dark-grayish-blue;
+}
+
+///////////////////////////////////////////////
+// Dark Theme
+body.dark {
+  background: $dark-theme_very-dark_blue--bg;
+  transition: background 0.3s;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+h1.dark {
+  color: $dark-theme_white;
+}
+
+p.dark {
+  color: $dark-theme_desaturated_blue;
+}
+
+//Tablet and bellow
+@media screen and (max-width: 60rem) {
+  body {
+    padding: 3rem 5%;
+  }
+}
