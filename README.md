@@ -35,7 +35,7 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://social-media-dashboard-nenad.netlify.app/
 
 ## My process
 
@@ -53,6 +53,6 @@ It was a nice way to practise using JavaScript for toggling between classes and 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - https://social-media-dashboard-nenad.netlify.app/
 - Frontend Mentor - https://www.frontendmentor.io/profile/Nesh00
 - Twitter - https://twitter.com/nenad37452460
