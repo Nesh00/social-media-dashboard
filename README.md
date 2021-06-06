@@ -12,8 +12,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 Social media dashboard with theme switcher challenge
@@ -28,13 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+/screenshots/desktop-dark.png
+/screenshots/desktop-light.png
+/screenshots/tablet-dark.png
+/screenshots/tablet-light.png
+/screenshots/mobile-dark.png
+/screenshots/mobile-light.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/html-css-flex-javascript-sass-CgOZCChxm
 - Live Site URL: https://social-media-dashboard-nenad.netlify.app/
 
 ## My process
