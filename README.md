@@ -26,16 +26,15 @@ Users should be able to:
 
 ### Screenshot
 
-/screenshots/desktop-dark.png
-/screenshots/desktop-light.png
-/screenshots/tablet-dark.png
-/screenshots/tablet-light.png
-/screenshots/mobile-dark.png
-/screenshots/mobile-light.png
+![](./screenshots/desktop-dark.png)
+![](./screenshots/desktop-light.png)
+![](./screenshots/tablet-dark.png)
+![](./screenshots/tablet-light.png)
+![](./screenshots/mobile-dark.png)
+![](./screenshots/mobile-light.png)
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/html-css-flex-javascript-sass-CgOZCChxm
 - Live Site URL: https://social-media-dashboard-nenad.netlify.app/
 
 ## My process
