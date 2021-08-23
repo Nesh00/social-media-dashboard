@@ -1,6 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme switcher solution
-
-This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Social media dashboard with theme switcher
 
 ## Table of contents
 
@@ -13,10 +11,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 - [Author](#author)
 
 ## Overview
-
-Social media dashboard with theme switcher challenge
-
-### The challenge
 
 Users should be able to:
 
@@ -35,6 +29,7 @@ Users should be able to:
 
 ### Links
 
+- GitHub URL: https://github.com/Nesh00/social-media-dashboard
 - Live Site URL: https://social-media-dashboard-nenad.netlify.app/
 
 ## My process
@@ -47,12 +42,7 @@ Users should be able to:
 - Sass
 - JavaScript
 
-### What I learned
-
-It was a nice way to practise using JavaScript for toggling between classes and using media queries for responsive design.
-
 ## Author
 
-- Website - https://social-media-dashboard-nenad.netlify.app/
-- Frontend Mentor - https://www.frontendmentor.io/profile/Nesh00
+- LinkedIn - https://www.linkedin.com/in/nenad-tsvetanovski-3101b474/
 - Twitter - https://twitter.com/nenad37452460
